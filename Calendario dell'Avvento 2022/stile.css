@@ -1,0 +1,118 @@
+	.container {
+		float: left;
+		height: 160px;
+		margin: 5px;
+		position: relative;
+		width: 160px;
+		}
+	
+
+	h1 {
+		text-align:center;
+	}
+		
+	.giorno {
+		cursor: pointer;
+		height: 100%;
+		left: 5px;
+		position: absolute;
+		top: 5px;
+		perspective: 920px;
+		width: 100%;
+		}
+			
+	.giorno img { 
+		backface-visibility: hidden;
+		border-color: #770000 #f00 #f00 #770000;
+		border-style: solid;
+		border-width: 1px;
+		height: 100%;
+		left:0;
+		position: absolute;
+		top:0;
+		transition: transform 2.0s;
+		width: 100%;
+	}
+
+	.flip{ 
+		transform: rotateY(0deg); 
+		}
+
+	.cover{ 
+		transform: rotateY(-180deg); 
+		}
+	 
+	.flipped .flip{
+		transform: rotateY(180deg);
+		}
+		
+	.flipped .cover{
+		transform: rotateY(0deg);
+	}
+	   
+
+	.curioso {
+		position: absolute;
+		right: 10px;
+		bottom: 6px;
+		width: 180px;
+		height: 340px;
+		transform: translateY(350px);
+		transition: transform 0.5s;
+	}
+		
+	.curioso .ehi {
+		display: block;
+		opacity: 0.0;
+		background: #fff;
+		padding: 1em;
+		font-size: 1.5em;
+		color: #000;
+		transition: opacity 0.5s 0.5s;
+	}
+		
+	.clearfix::after {
+		clear: both;
+	}
+	
+	
+	.clearfix::before, .clearfix::after {
+		content: "";
+		display: table;
+		font-size: 0;
+	}
+	
+	.clearfix::before, .clearfix::after {
+		content: "";
+		display: table;
+		font-size: 0;
+	}	
+
+	body {
+		background: #000032 url("C:/Users/navjo/Desktop/Calendario dell'Avvento 2022/Immagini/Simpi/sfondo.png") no-repeat center top;
+		background-size: 100% auto;
+		font-family: "arial", helvetica, sans-serif;
+	}
+	
+	div {
+		display: block;
+	}
+
+	#calendario {
+		background: #cc0000;
+		height: 860px;
+		margin: auto;
+		width: 860px;
+		position: relative;
+		overflow: hidden;
+	}
+	
+	.curioso.beccato {
+		background: #cc0000;
+		height: 1200px;
+		margin: auto;
+		width: 860px;
+		position: absolute;
+		overflow: hidden;
+	}
+	
