@@ -4,6 +4,7 @@
 		margin: 5px;
 		position: relative;
 		width: 160px;
+
 		}
 	
 
@@ -19,6 +20,7 @@
 		top: 5px;
 		perspective: 920px;
 		width: 100%;
+
 		}
 			
 	.giorno img { 
@@ -89,8 +91,8 @@
 	}	
 
 	body {
-		background: #000032 url("C:/Users/navjo/Desktop/Calendario dell'Avvento 2022/Immagini/Simpi/sfondo.png") no-repeat center top;
-		background-size: 100% auto;
+		background: #000032 url("./Immagini/simpi/sfondo.png") no-repeat center top;
+		background-size: 150% auto;
 		font-family: "arial", helvetica, sans-serif;
 	}
 	
